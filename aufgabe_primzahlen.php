@@ -41,6 +41,7 @@
         
         // Alle Zahlen von 1 bis zur Grenze durchgehen
         for ($aktuelleZahl = 1; $aktuelleZahl <= $grenze; $aktuelleZahl++) {
+             // Wenn aktuelle Zahl eine Primzahl ist dann ausgeben
             if (istPrimzahl($aktuelleZahl)) echo $aktuelleZahl . " ";
         }
     }
